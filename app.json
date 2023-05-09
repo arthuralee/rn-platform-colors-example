@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "rn-platform-colors-example",
+    "slug": "rn-platform-colors-example",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.rnplatformcolorsexample"
+    },
+    "ios": {
+      "bundleIdentifier": "com.rnplatformcolorsexample"
+    },
+    "userInterfaceStyle": "automatic",
+    "plugins": ["./platform-colors.plugin.js"],
+    "platformColors": {
+      "primary": {
+        "light": "#333333",
+        "dark": "#FFFFFF"
+      },
+      "background": {
+        "light": "#FFFFFF",
+        "dark": "#333333"
+      }
+    }
+  }
+}
